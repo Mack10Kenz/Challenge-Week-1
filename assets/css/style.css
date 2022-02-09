@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,6 +33,17 @@ body {
     font-size: 20px;
 }
 
+/* Hero Styles and Image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hero Navigation Styles */
 .header div ul {
     list-style-type: none;
 }
@@ -50,15 +62,6 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +78,7 @@ p {
     margin-left: 20px;
 }
 
+/* Side Panel Style Begins */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +105,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Side Panel Style Ends */
 
 .search-engine-optimization,.online-reputation-management,.social-media-marketing {
     margin-bottom: 20px;
@@ -120,6 +125,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer Style Begins */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +136,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Style Ends */
